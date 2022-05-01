@@ -1,0 +1,47 @@
+            @font-face {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(../../vendor/fonts/Inter-Regular.woff2) format("woff2"), url(../../vendor/fonts/Inter-Regular.woff) format("woff");
+            }
+            
+            @font-face {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-display: swap;
+                src: url(../../vendor/fonts/Inter-Medium.woff2) format("woff2"), url(../../vendor/fonts/Inter-Medium.woff) format("woff");
+            }
+
+            @font-face {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-display: swap;
+                src: url(../../vendor/fonts/Intersemibold.woff2) format("woff2"), url(../../vendor/fonts/Manropesemibold.woff) format("woff");
+            }
+
+            @font-face {
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(../../vendor/fonts/Manroperegular.woff2) format("woff2"), url(../../vendor/fonts/Manroperegular.woff) format("woff");
+            }
+
+            @font-face {
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 500;
+                font-display: swap;
+                src: url(../../vendor/fonts/Manropemedium.woff2) format("woff2"), url(../../vendor/fonts/Manropemedium.woff) format("woff");
+            }
+
+            @font-face {
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 600;
+                font-display: swap;
+                src: url(../../vendor/fonts/Manropesemibold.woff2) format("woff2"), url(../../vendor/fonts/Manropesemibold.woff) format("woff");
+            }
