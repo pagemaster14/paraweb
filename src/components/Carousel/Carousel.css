@@ -1,0 +1,82 @@
+.main-carousel {
+  background: #EEE;
+  margin-top: 56px;
+}
+
+@media screen and (min-width: 1440px) {
+  .main-carousel {
+    margin-top: 88px;
+  }
+}
+
+.carousel-cell {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url(../../images/Background390.svg);
+  background-size: cover;
+  width: 100%;
+  min-height: 280px;
+  background-color: #8C8;
+  counter-increment: carousel-cell;
+}
+
+@media screen and (min-width: 1440px) {
+  .carousel-cell {
+    min-height: 546px;
+    background-image: url(../../images/Background.svg);
+  }
+}
+
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+.carousel__title {
+  align-self: start;
+  margin: 0 15px;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+@media screen and (min-width: 1440px) {
+  .carousel__title {
+    margin: 0 255px;
+    font-size: 32px;
+    line-height: 44px;
+  }
+}
+
+.carousel__subtitle {
+  margin: 12px 15px 35px;
+  max-width: 360px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+@media screen and (min-width: 1440px) {
+  .carousel__subtitle {
+    margin: 24px 258px 100px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+.flickity-button {
+  display: none;
+}
+
+.flickity-page-dot {
+  width: 16px;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 1px;
+}
