@@ -1,0 +1,5 @@
+.stickyFilter {
+    margin: 32px 15px 0;
+    min-height: 124px;
+    background-color: linear-gradient(180deg, #FFFFFF 89.58%, rgba(255, 255, 255, 0) 100%);
+}

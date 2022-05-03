@@ -20,6 +20,12 @@
     margin-left: 15px;
     width: 59.65px;
     height: 25.3px;
+    transition: opacity .3s ease .3s;
+}
+
+.header__logo:hover {
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 1440px) {
@@ -46,6 +52,12 @@
     background-image: url(../../images/telefon.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    transition: opacity .3s ease .3s;
+}
+
+.header__contacts-number:hover {
+    opacity: 0.8;
+    cursor: pointer; 
 }
 
 @media screen and (min-width: 1440px) {
@@ -65,6 +77,12 @@
     background-image: url(../../images/letter.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    transition: opacity .3s ease .3s;
+}
+
+.header__contacts-email:hover {
+    opacity: 0.8;
+    cursor: pointer; 
 }
 
 @media screen and (min-width: 1440px) {
