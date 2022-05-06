@@ -5,15 +5,26 @@ import Footer from "../Footer/Footer";
 import Carousel from "../Carousel/Carousel";
 import StickyFilter from "../StickyFilter/StickyFilter";
 import Cards from "../Cards/Cards";
+import mainApi from "../../ulits/MainApi";
 
 function Main(props) {
+  const [cards, setCards] = React.useState([]);
+
+  React.useEffect(() => {
+    mainApi.getInitialCards()
+      .then(data => {
+        setCards(data.articles);
+      })
+      .catch((err) => console.log(err));
+  }, []);
+
   return (
     <>
       <Header />
       <main className="main">
         <Carousel />
-        <StickyFilter />
-        <Cards />
+        <StickyFilter cards={cards} />
+        <Cards cards={cards} />
       </main>
       <Footer />
     </>

@@ -12,6 +12,13 @@ class MainApi {
         }
         return Promise.reject(`Ошибка: ${res.status}`);
     }
+    getInitialCards() {
+        return fetch(`${this._url}`, {
+            headers: this._headers,
+        })
+            .then(this._checkResponse)
+
+    }
 }
 
 
