@@ -79,4 +79,9 @@
   height: 3px;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 1px;
+  transition: opacity .3s ease .3s;
+}
+
+.flickity-page-dot:hover {
+  opacity: 0.6;
 }

@@ -53,6 +53,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     transition: opacity .3s ease .3s;
+    color: #FFFFFF;
 }
 
 .header__contacts-number:hover {
@@ -78,6 +79,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     transition: opacity .3s ease .3s;
+    color: #FFFFFF;
 }
 
 .header__contacts-email:hover {
@@ -94,11 +96,4 @@
         line-height: 22px;
         color: rgba(0, 0, 0, 0.65);
     }
-}
-
-.header__contacts-number-wide {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-    color: rgba(0, 0, 0, 0.65);
 }
